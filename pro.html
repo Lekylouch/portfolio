@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Expériences Professionnelles – Sylvestre Ibara</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    h1, h2, h3, h4 {
+      font-family: Georgia, "Times New Roman", serif;
+    }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-slate-900">
+
+  <!-- Navbar -->
+  <header class="sticky top-0 z-20 bg-white/90 backdrop-blur border-b border-slate-200">
+    <div class="max-w-5xl mx-auto flex items-center justify-between px-4 py-3">
+      <a href="index.html" class="font-semibold tracking-tight hover:text-orange-500 transition">
+        Sylvestre Ibara
+      </a>
+      <nav class="space-x-4 text-sm">
+        <a href="index.html#profil" class="hover:text-orange-500">Profil</a>
+        <a href="index.html#formations" class="hover:text-orange-500">Formations</a>
+        <a href="pro.html" class="text-orange-500 font-medium">Stages</a>
+        <a href="projets.html" class="hover:text-orange-500">Projets</a>
+        <a href="index.html#competences" class="hover:text-orange-500">Compétences</a>
+        <a href="index.html#contact" class="hover:text-orange-500">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-12 space-y-20">
+
+    <!-- Titre de la page -->
+    <div class="space-y-2">
+      <p class="text-xs uppercase tracking-[0.2em] text-orange-500">Parcours professionnel</p>
+      <h1 class="text-3xl md:text-4xl font-semibold text-slate-900">Expériences professionnelles</h1>
+      <p class="text-sm text-slate-500">
+        Stages réalisés dans le cadre de mon BUT GEII, en électronique et systèmes embarqués.
+        Chaque mission m'a permis de confronter mes compétences techniques à des problématiques
+        réelles sur le terrain.
+      </p>
+    </div>
+
+    <!-- ─────────────────────────────────── -->
+    <!-- STAGE 1 : CFE – Cerema             -->
+    <!-- ─────────────────────────────────── -->
+    <section id="cfe" class="scroll-mt-20 border border-slate-200 rounded-2xl shadow-sm bg-white overflow-hidden">
+      <div class="border-b border-slate-100 px-6 py-5 flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+        <div>
+          <h2 class="text-2xl font-semibold text-slate-900">
+            Carte de contrôle de feu et d'énergie (CFE)
+          </h2>
+          <p class="text-sm text-slate-500 mt-1">
+            Technicien Électronique et Systèmes Embarqués &middot; Cerema &middot; Plouzané
+          </p>
+        </div>
+        <span class="inline-block px-3 py-1 text-xs rounded-full bg-orange-100 text-orange-700 border border-orange-200 self-start md:self-auto">
+          Stage
+        </span>
+      </div>
+
+      <div class="px-6 py-6 space-y-8 text-sm text-slate-600">
+        <div>
+          <h3 class="text-base font-semibold text-slate-900 mb-1">Thème</h3>
+          <p>
+            Développement du firmware d'une carte électronique embarquée pour piloter des feux et
+            balises maritimes autonomes, en intégrant la gestion intelligente de l'énergie et des
+            moyens de connexion filaires et sans fil.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="text-base font-semibold text-slate-900 mb-1">Contexte & Problématique</h3>
+          <p>
+            Les phares et balises maritimes autonomes fonctionnent en site isolé, souvent sans accès
+            réseau. La carte CFE doit assurer le pilotage intelligent des feux (allumage, extinction,
+            gestion des états jour/nuit), surveiller et gérer la batterie en basse consommation, et
+            permettre une configuration et une supervision depuis un ordinateur ou un terminal mobile,
+            via une liaison filaire (USB) ou sans fil (Wi-Fi / radio dédiée).
+          </p>
+        </div>
+
+        <div>
+          <h3 class="text-base font-semibold text-slate-900 mb-1">Réalisation</h3>
+          <ul class="list-disc list-inside space-y-2">
+            >
+              Participation au développement d'un firmware embarqué pour la gestion de l'allumage
+              et de l'extinction des feux, avec logique de détection jour/nuit.
+            </li>
+            >
+              Mise en œuvre d'une architecture bas consommation pour optimiser l'autonomie de la
+              batterie en environnement isolé.
+            </li>
+            >
+              Préparation des interfaces de connexion filaires (USB) pour la configuration et la
+              supervision du CFE depuis un PC.
+            </li>
+            >
+              Intégration de moyens de communication sans fil (Wi-Fi / liaison radio dédiée) pour
+              le paramétrage et la supervision à distance depuis un terminal mobile.
+            </li>
+            >
+              Tests fonctionnels et validation des comportements du firmware dans des scénarios
+              représentatifs des conditions terrain.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-base font-semibold text-slate-900 mb-2">Compétences mobilisées</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 rounded-full bg-slate-900 text-white text-xs">Firmware embarqué</span>
+            <span class="px-3 py-1 rounded-full bg-slate-900 text-white text-xs">C / C++ embarqué</span>
+            <span class="px-3 py-1 rounded-full bg-orange-100 text-orange-700 border border-orange-200 text-xs">Gestion d'énergie / Basse consommation</span>
+            <span class="px-3 py-1 rounded-full bg-orange-100 text-orange-700 border border-orange-200 text-xs">Communication Wi-Fi / Radio</span>
+            <span class="px-3 py-1 rounded-full bg-slate-900 text-white text-xs">Interface USB / Série</span>
+            <span class="px-3 py-1 rounded-full bg-orange-100 text-orange-700 border border-orange-200 text-xs">Tests & Validation terrain</span>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-base font-semibold text-slate-900 mb-1">Ce que j'ai appris</h3>
+          <p>
+            Ce stage m'a confronté aux contraintes réelles du développement embarqué pour des
+            équipements critiques en environnement isolé : fiabilité, autonomie énergétique et
+            maintenabilité du firmware. J'ai renforcé ma rigueur dans les tests et ma capacité
+            à documenter précisément mes développements pour une équipe.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────── -->
+    <!-- STAGE 2 : FrostAlert – UBO         -->
+    <!-- ─────────────────────────────────── -->
+    <section id="frostalert" class="scroll-mt-20 border border-slate-200 rounded-2xl shadow-sm bg-white overflow-hidden">
+      <div class="border-b border-slate-100 px-6 py-5 flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+        <div>
+          <h2 class="text-2xl font-semibold text-slate-900">
+            FrostAlert – Surveillance de température en laboratoire
+          </h2>
+          <p class="text-sm text-slate-500 mt-1">
+            Technicien Électronique et Systèmes Embarqués &middot; UBO &middot; Brest
+          </p>
+        </div>
+        <span class="inline-block px-3 py-1 text-xs rounded-full bg-orange-100 text-orange-700 border border-orange-200 self-start md:self-auto">
+          Stage
+        </span>
+      </div>
+
+      <div class="px-6 py-6 space-y-8 text-sm text-slate-600">
+        <div>
+          <h3 class="text-base font-semibold text-slate-900 mb-1">Thème</h3>
+          <p>
+            Mise en place d'un système IoT de surveillance continue de la température dans des
+            surgélateurs de laboratoire, pour protéger des échantillons biologiques sensibles et
+            alerter les responsables en temps quasi réel en cas de dérive.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="text-base font-semibold text-slate-900 mb-1">Contexte & Problématique</h3>
+          <p>
+            Le laboratoire conserve des échantillons biologiques critiques (cellules, ADN, souches)
+            dans des surgélateurs. Une dérive de température, même brève, peut entraîner une perte
+            irréversible. L'objectif est de concevoir un système autonome capable de détecter ces
+            dérives au-delà de seuils définis et de remonter des alertes en temps quasi réel aux
+            responsables, sans intervention manuelle constante.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="text-base font-semibold text-slate-900 mb-1">Réalisation</h3>
+          <ul class="list-disc list-inside space-y-2">
+            >
+              Conception et réalisation d'un prototype IoT basé sur un Raspberry Pi Pico et un
+              capteur MCP9600 intégrés dans un surgélateur.
+            </li>
+            >
+              Programmation du Raspberry Pi Pico en MicroPython : lecture de température,
+              application des seuils et préparation des données à l'envoi.
+            </li>
+            >
+              Intégration d'un module LoRa pour transmettre les relevés vers une gateway LoRaWAN
+              (LPS8N) et configuration du device sur The Things Network (TTN).
+            </li>
+            >
+              Développement d'une application web en Python / Flask : affichage des températures,
+              gestion des seuils, alertes automatiques et visualisation de l'historique.
+            </li>
+            >
+              Mise en place d'une base de données PostgreSQL pour stocker les relevés et les
+              événements critiques.
+            </li>
+            >
+              Déploiement de la plateforme sur Render pour une surveillance accessible à distance
+              en continu.
+            </li>
+            >
+              Tests en conditions réelles avec scénarios de dérive simulée pour valider les alertes
+              et la fiabilité du système.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-base font-semibold text-slate-900 mb-2">Compétences mobilisées</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 rounded-full bg-slate-900 text-white text-xs">MicroPython</span>
+            <span class="px-3 py-1 rounded-full bg-slate-900 text-white text-xs">Raspberry Pi Pico</span>
+            <span class="px-3 py-1 rounded-full bg-orange-100 text-orange-700 border border-orange-200 text-xs">LoRa / LoRaWAN / TTN</span>
+            <span class="px-3 py-1 rounded-full bg-orange-100 text-orange-700 border border-orange-200 text-xs">Capteur MCP9600</span>
+            <span class="px-3 py-1 rounded-full bg-slate-900 text-white text-xs">Python / Flask</span>
+            <span class="px-3 py-1 rounded-full bg-slate-900 text-white text-xs">PostgreSQL</span>
+            <span class="px-3 py-1 rounded-full bg-orange-100 text-orange-700 border border-orange-200 text-xs">Déploiement cloud (Render)</span>
+            <span class="px-3 py-1 rounded-full bg-orange-100 text-orange-700 border border-orange-200 text-xs">Tests & Validation</span>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-base font-semibold text-slate-900 mb-1">Ce que j'ai appris</h3>
+          <p>
+            Ce stage m'a permis de réaliser un système IoT complet de bout en bout : du capteur
+            physique jusqu'à l'interface web déployée en production. J'ai appris à gérer une stack
+            complète (hardware, firmware, backend, base de données, déploiement) et à confronter
+            mes choix techniques à des contraintes réelles de fiabilité et de continuité de service.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ─────────────────────────────────────────── -->
+    <!-- STAGE 3 : AIS Nauticast B2 AtoN – Cerema   -->
+    <!-- ─────────────────────────────────────────── -->
+    <section id="ais" class="scroll-mt-20 border border-slate-200 rounded-2xl shadow-sm bg-white overflow-hidden">
+      <div class="border-b border-slate-100 px-6 py-5 flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+        <div>
+          <h2 class="text-2xl font-semibold text-slate-900">
+            Configuration dynamique d'un transpondeur AIS Nauticast B2 AtoN
+          </h2>
+          <p class="text-sm text-slate-500 mt-1">
+            Technicien Électronique et Systèmes Embarqués &middot; Cerema &middot; Plouzané
+          </p>
+        </div>
+        <span class="inline-block px-3 py-1 text-xs rounded-full bg-orange-100 text-orange-700 border border-orange-200 self-start md:self-auto">
+          Stage
+        </span>
+      </div>
+
+      <div class="px-6 py-6 space-y-8 text-sm text-slate-600">
+
+        <div>
+          <h3 class="text-base font-semibold text-slate-900 mb-1">Thème</h3>
+          <p>
+            Remplacement d'anciens transpondeurs maritimes par une solution moderne basée sur
+            un ESP32, pour configurer dynamiquement les messages AIS et surveiller les aides
+            à la navigation à distance.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="text-base font-semibold text-slate-900 mb-1">Contexte & Problématique</h3>
+          <p>
+            Les anciens transpondeurs Kan AtoN 3 en service ne permettaient plus une configuration
+            flexible ni une supervision à distance. L'objectif est de les remplacer progressivement
+            par un Nauticast B2 AtoN associé à un microcontrôleur ESP32, afin de permettre la
+            configuration du message AIS 21 de manière dynamique et d'ajouter des fonctions de
+            surveillance et de paramétrage à distance pour les aides à la navigation maritimes.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="text-base font-semibold text-slate-900 mb-1">Réalisation</h3>
+          <ul class="list-disc list-inside space-y-2">
+            >
+              Mise en place d'une communication bidirectionnelle en NMEA 0183 entre l'ESP32 et
+              le Nauticast B2 AtoN via liaison série RS232 / UART.
+            </li>
+            >
+              Conception d'une carte électronique autour de l'ESP32 : adaptation RS232 / UART,
+              entrées TOR isolées, alimentation et protections adaptées à l'environnement de
+              balisage maritime.
+            </li>
+            >
+              Développement d'un serveur web embarqué sur l'ESP32 pour configurer les paramètres
+              AIS à distance en Wi-Fi et visualiser les états des équipements en temps réel.
+            </li>
+            >
+              Programmation de la logique embarquée en C++ / Arduino : gestion des états,
+              génération de trames NMEA, sauvegarde des paramètres en mémoire persistante.
+            </li>
+            >
+              Réalisation de prototypes successifs sur breadboard puis sur PCB.
+            </li>
+            >
+              Tests fonctionnels avec le transpondeur Nauticast B2 AtoN pour valider l'envoi
+              dynamique du message AIS 21 et le bon fonctionnement global de la solution.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-base font-semibold text-slate-900 mb-2">Compétences mobilisées</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 rounded-full bg-slate-900 text-white text-xs">C++ / Arduino</span>
+            <span class="px-3 py-1 rounded-full bg-slate-900 text-white text-xs">ESP32</span>
+            <span class="px-3 py-1 rounded-full bg-orange-100 text-orange-700 border border-orange-200 text-xs">NMEA 0183 / RS232 / UART</span>
+            <span class="px-3 py-1 rounded-full bg-orange-100 text-orange-700 border border-orange-200 text-xs">Serveur web embarqué (Wi-Fi)</span>
+            <span class="px-3 py-1 rounded-full bg-slate-900 text-white text-xs">Conception PCB</span>
+            <span class="px-3 py-1 rounded-full bg-slate-900 text-white text-xs">Protocole AIS / Message AIS 21</span>
+            <span class="px-3 py-1 rounded-full bg-orange-100 text-orange-700 border border-orange-200 text-xs">Tests & Validation fonctionnelle</span>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-base font-semibold text-slate-900 mb-1">Ce que j'ai appris</h3>
+          <p>
+            Ce stage m'a permis d'aller plus loin dans la conception hardware en abordant la
+            réalisation d'une carte PCB dédiée à un environnement exigeant. J'ai approfondi
+            ma maîtrise des protocoles série industriels (NMEA 0183, RS232) et des interfaces
+            web embarquées sur microcontrôleur, tout en comprenant les contraintes propres
+            aux équipements de balisage maritime.
+          </p>
+        </div>
+
+      </div>
+    </section>
+    <!-- FIN AIS -->
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 mt-20 py-6 text-center text-xs text-slate-400">
+    Sylvestre Ibara &middot; Portfolio &middot; 2026
+  </footer>
+
+</body>
+</html>

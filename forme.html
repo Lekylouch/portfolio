@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos - Sylvestre Ibara</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: { 
+                extend: { 
+                    colors: { 
+                        geii: '#1e3a8a'
+                    },
+                    fontFamily: {
+                        'georgia': ['Georgia', 'serif']
+                    }
+                } 
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-slate-50 text-gray-800 antialiased font-georgia">
+    
+    <!-- Nav identique -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50 border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="text-xl font-bold text-geii tracking-tight">
+                    Sylvestre Ibara – BUT GEII
+                </div>
+                <ul class="hidden md:flex space-x-6 text-sm">
+                    <li><a href="index.html" class="hover:text-geii">Accueil</a></li>
+                    <li><a href="apropos.html" class="text-geii font-semibold">À propos</a></li>
+                    <li><a href="competences.html" class="hover:text-geii">Compétences</a></li>
+                    <li><a href="projets.html" class="hover:text-geii">Projets</a></li>
+                    <li><a href="analyse.html" class="hover:text-geii">Analyse pro</a></li>
+                    <li><a href="projet-pro.html" class="hover:text-geii">Projet pro</a></li>
+                    <li><a href="contact.html" class="hover:text-geii">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-6xl mx-auto px-6 lg:px-8 py-16">
+        <header class="mb-12">
+            <p class="text-sm uppercase tracking-[0.2em] text-geii mb-2">
+                À propos
+            </p>
+            <h1 class="text-3xl md:text-4xl font-bold text-slate-900">
+                Parcours, valeurs et motivations
+            </h1>
+            <p class="mt-4 text-base text-slate-700 max-w-3xl">
+                Cette page présente mon profil, mon parcours scolaire et mes premières expériences
+                professionnelles dans le domaine du génie électrique et de l’informatique industrielle.
+            </p>
+        </header>
+
+        <!-- 2.1 Présentation personnelle -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold text-slate-900 mb-4">
+                Présentation personnelle
+            </h2>
+            <div class="bg-white border border-slate-200 rounded-lg p-6 space-y-4">
+                <p class="text-base text-slate-700">
+                    Je m’appelle Sylvestre Ibara et je suis étudiant en BUT GEII (Génie Électrique 
+                    et Informatique Industrielle). Je m’intéresse particulièrement aux systèmes 
+                    embarqués, aux communications IoT et aux applications concrètes de l’électronique.
+                </p>
+                <p class="text-base text-slate-700">
+                    J’apprécie les projets où il faut comprendre à la fois le matériel et le logiciel :
+                    conception de cartes, programmation de microcontrôleurs, intégration de capteurs
+                    et mise en place de petites applications web pour superviser les données.
+                </p>
+
+                <div class="grid md:grid-cols-3 gap-6 pt-4 border-t border-slate-200">
+                    <div>
+                        <h3 class="text-sm font-semibold text-geii mb-2">Profil</h3>
+                        <p class="text-sm text-slate-700">
+                            Étudiant BUT GEII, orienté systèmes embarqués, IoT et électronique appliquée.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-sm font-semibold text-geii mb-2">Valeurs</h3>
+                        <p class="text-sm text-slate-700">
+                            Rigueur, fiabilité, curiosité technique, envie de comprendre ce qui se passe « sous le capot ».
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-sm font-semibold text-geii mb-2">Motivation</h3>
+                        <p class="text-sm text-slate-700">
+                            Devenir ingénieur ou développeur spécialisé en systèmes embarqués et solutions IoT industrielles.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2.2 Parcours scolaire -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold text-slate-900 mb-4">
+                Parcours scolaire
+            </h2>
+            <div class="bg-white border border-slate-200 rounded-lg p-6 space-y-4">
+                <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+                    <div>
+                        <p class="text-sm text-slate-500">2024 – 2027</p>
+                        <p class="font-semibold text-slate-900">BUT GEII</p>
+                        <p class="text-sm text-slate-700">Brest – Génie Électrique et Informatique Industrielle</p>
+                    </div>
+                </div>
+                <!-- Ajoute en dessous d'autres formations si besoin -->
+            </div>
+        </section>
+
+        <!-- 2.3 Parcours professionnel -->
+        <section>
+            <h2 class="text-2xl font-semibold text-slate-900 mb-4">
+                Parcours professionnel
+            </h2>
+            <div class="bg-white border border-slate-200 rounded-lg p-6 space-y-6">
+                <!-- Exemple de stage -->
+                <article class="space-y-1">
+                    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+                        <div>
+                            <p class="font-semibold text-slate-900">
+                                Stage – Technicien systèmes embarqués / IoT
+                            </p>
+                            <p class="text-sm text-slate-700">
+                                CEREMA – Projet FrostAlert (surveillance météo connectée)
+                            </p>
+                        </div>
+                        <p class="text-sm text-slate-500">2025</p>
+                    </div>
+                    <p class="text-sm text-slate-700 mt-2">
+                        Missions principales : développement et intégration d’une solution IoT basée sur
+                        des microcontrôleurs, capteurs, LoRa et supervision web. Participation à la
+                        programmation embarquée (FreeRTOS, communication), aux tests et à la rédaction
+                        de documentation technique.
+                    </p>
+                    <p class="text-sm text-slate-700">
+                        Résultats / impacts : amélioration de la fiabilité des mesures, documentation
+                        permettant la reprise du projet, montée en compétences sur l’architecture d’un
+                        système complet (capteur → transmission → base de données → interface).
+                    </p>
+                </article>
+
+                <!-- Tu pourras dupliquer ce bloc pour d'autres expériences -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-slate-200 bg-white">
+        <div class="max-w-6xl mx-auto px-6 lg:px-8 py-4 text-xs text-slate-500 flex justify-between">
+            <span>&copy; 2026 Sylvestre Ibara – Portfolio BUT GEII</span>
+            <span>Brest, Bretagne</span>
+        </div>
+    </footer>
+</body>
+</html>

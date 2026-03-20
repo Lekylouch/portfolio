@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfolio – Sylvestre Ibara</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    h1, h2, h3, h4 {
+      font-family: Georgia, "Times New Roman", serif;
+    }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-slate-900">
+
+  <!-- Navbar -->
+  <header class="sticky top-0 z-20 bg-white/90 backdrop-blur border-b border-slate-200">
+    <div class="max-w-5xl mx-auto flex items-center justify-between px-4 py-3">
+      <div class="font-semibold tracking-tight">Sylvestre Ibara</div>
+      <nav class="space-x-4 text-sm">
+        <a href="#profil" class="hover:text-orange-500">Profil</a>
+        <a href="formations.html" class="hover:text-orange-500">Formations</a>
+        <a href="pro.html" class="hover:text-orange-500">Stages</a>
+        <a href="projects.html" class="hover:text-orange-500">Projets</a>
+        <a href="competences.html" class="hover:text-orange-500">Compétences</a>
+        <a href="#contact" class="hover:text-orange-500">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 space-y-16 py-10">
+
+    <!-- PROFIL -->
+    <section id="profil">
+      <div class="border border-slate-200 rounded-2xl p-6 md:p-8 shadow-sm bg-white flex flex-col md:flex-row items-center gap-6">
+        <!-- Photo -->
+        <div class="flex-shrink-0">
+          <div class="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border border-slate-300 shadow-md bg-slate-50">
+            <img src="Photo.png" alt="Photo de Sylvestre Ibara" class="w-full h-full object-cover" />
+          </div>
+        </div>
+        <!-- Texte profil -->
+        <div class="flex-1 space-y-3 text-center md:text-left">
+          <h1 class="text-2xl md:text-3xl font-semibold text-slate-900">
+            Sylvestre <span class="text-orange-500">Ibara</span>
+          </h1>
+          <p class="text-sm uppercase tracking-[0.2em] text-slate-500">
+            Étudiant en BUT GEII &middot; Systèmes embarqués & IoT
+          </p>
+          <p class="text-sm text-slate-600">
+            Étudiant en génie électrique et informatique industrielle, intéressé par les systèmes
+            embarqués, l'IoT et le développement logiciel.
+          </p>
+          <p class="text-sm text-slate-600">
+            Je construis progressivement mon expérience à travers des stages et des projets concrets,
+            avec l'objectif de poursuivre en école d'ingénieur et de travailler sur des systèmes
+            techniques utiles sur le terrain.
+          </p>
+          <div class="flex flex-wrap gap-3 justify-center md:justify-start pt-1">
+            <a href="formations.html"
+               class="inline-flex items-center px-4 py-2 rounded-full bg-orange-500 text-white text-xs font-medium hover:bg-orange-600 transition">
+              Voir mon parcours
+            </a>
+            <a href="#contact"
+               class="inline-flex items-center px-4 py-2 rounded-full border border-slate-300 text-xs font-medium hover:border-orange-500 hover:text-orange-500 transition">
+              Me contacter
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMATIONS (résumé cliquable → formations.html) -->
+    <section id="formations" class="space-y-6">
+      <div class="flex items-center justify-between">
+        <h2 class="text-xl md:text-2xl font-semibold text-slate-900">Formations</h2>
+        <a href="formations.html" class="text-xs text-orange-500 hover:underline">Voir tout →</a>
+      </div>
+      <div class="grid gap-4 md:grid-cols-2">
+        <a href="formations.html"
+           class="block border border-slate-200 rounded-2xl p-4 shadow-sm bg-white hover:shadow-md hover:border-orange-400 transition">
+          <p class="text-xs text-slate-500 mb-1">2023 – 2026</p>
+          <h3 class="text-base font-semibold text-slate-900">
+            BUT Génie Électrique et Informatique Industrielle
+          </h3>
+          <p class="text-sm text-slate-600 mb-1">IUT de Brest</p>
+          <p class="text-sm text-slate-600">
+            Électronique, systèmes embarqués, automatisme et programmation (C / C++),
+            avec des projets techniques en lien avec le terrain.
+          </p>
+        </a>
+      </div>
+    </section>
+
+    <!-- STAGES (résumé, chaque carte → pro.html#ancre) -->
+    <section id="stages" class="space-y-6">
+      <div class="flex items-center justify-between">
+        <h2 class="text-xl md:text-2xl font-semibold text-slate-900">Stages</h2>
+        <a href="pro.html" class="text-xs text-orange-500 hover:underline">Voir tout →</a>
+      </div>
+      <div class="grid gap-4 md:grid-cols-2">
+
+        <!-- CFE -->
+        <a href="pro.html#cfe"
+           class="group block border border-slate-200 rounded-2xl p-4 shadow-sm bg-white text-sm hover:shadow-md hover:border-orange-400 transition">
+          <div class="flex justify-between items-baseline mb-1">
+            <h3 class="text-base font-semibold text-slate-900">
+              Carte de contrôle de feu et d'énergie (CFE)
+            </h3>
+            <span class="text-xs text-slate-500">Période du stage</span>
+          </div>
+          <p class="text-xs text-slate-500 mb-2">
+            Technicien Électronique et Systèmes Embarqués &middot; Cerema &middot; Plouzané
+          </p>
+          <p class="text-xs font-medium text-slate-700 mb-1">Thème</p>
+          <p class="text-slate-600">
+            Développement d'un firmware bas consommation pour piloter des feux maritimes autonomes
+            et gérer l'énergie en site isolé.
+          </p>
+        </a>
+
+        <!-- FrostAlert -->
+        <a href="pro.html#frostalert"
+           class="group block border border-slate-200 rounded-2xl p-4 shadow-sm bg-white text-sm hover:shadow-md hover:border-orange-400 transition">
+          <div class="flex justify-between items-baseline mb-1">
+            <h3 class="text-base font-semibold text-slate-900">
+              FrostAlert – Surveillance de température en laboratoire
+            </h3>
+            <span class="text-xs text-slate-500">Période du stage</span>
+          </div>
+          <p class="text-xs text-slate-500 mb-2">
+            Technicien Électronique et Systèmes Embarqués &middot; UBO &middot; Brest
+          </p>
+          <p class="text-xs font-medium text-slate-700 mb-1">Thème</p>
+          <p class="text-slate-600">
+            Mise en place d'un système IoT pour suivre la température des surgélateurs
+            et déclencher des alertes en cas de dérive.
+          </p>
+        </a>
+
+        <!-- AIS -->
+        <a href="pro.html#ais"
+           class="group block border border-slate-200 rounded-2xl p-4 shadow-sm bg-white text-sm hover:shadow-md hover:border-orange-400 transition">
+          <div class="flex justify-between items-baseline mb-1">
+            <h3 class="text-base font-semibold text-slate-900">
+              Configuration dynamique d'un transpondeur AIS
+            </h3>
+            <span class="text-xs text-slate-500">Période du stage</span>
+          </div>
+          <p class="text-xs text-slate-500 mb-2">
+            Technicien Électronique et Systèmes Embarqués &middot; Cerema &middot; Plouzané
+          </p>
+          <p class="text-xs font-medium text-slate-700 mb-1">Thème</p>
+          <p class="text-slate-600">
+            Pilotage d'un Nauticast B2 AtoN avec un ESP32 pour configurer les messages AIS
+            et surveiller les aides à la navigation.
+          </p>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- PROJETS (résumé, AquaGuard → projects.html#aquaguard) -->
+    <section id="projets" class="space-y-6">
+      <div class="flex items-center justify-between">
+        <h2 class="text-xl md:text-2xl font-semibold text-slate-900">Projets</h2>
+        <a href="projects.html" class="text-xs text-orange-500 hover:underline">Voir tout →</a>
+      </div>
+      <div class="grid gap-4 md:grid-cols-2">
+        <a href="projects.html#aquaguard"
+           class="group block border border-slate-200 rounded-2xl p-4 shadow-sm bg-white text-sm hover:shadow-md hover:border-orange-400 transition">
+          <h3 class="text-base font-semibold text-slate-900">AquaGuard</h3>
+          <p class="text-xs text-slate-500 mb-2">
+            Projet académique &middot; IUT de Brest &middot; 2024 – 2025
+          </p>
+          <p class="text-xs font-medium text-slate-700 mb-1">Thème</p>
+          <p class="text-slate-600">
+            Système embarqué pour surveiller des casiers de pêche, localiser les bouées et
+            détecter les vols ou dérives grâce au GPS et à une communication longue portée.
+          </p>
+        </a>
+      </div>
+    </section>
+
+    <!-- COMPÉTENCES -->
+    <section id="competences" class="space-y-6">
+      <div class="flex items-center justify-between">
+        <h2 class="text-xl md:text-2xl font-semibold text-slate-900">Compétences</h2>
+      </div>
+      <div class="grid md:grid-cols-3 gap-4">
+
+        <!-- Bloc GEII cliquable → competences.html -->
+        <a href="competences.html"
+           class="group col-span-1 block border border-slate-200 rounded-2xl p-4 shadow-sm bg-white hover:shadow-md hover:border-orange-400 transition">
+          <p class="text-xs uppercase tracking-[0.15em] text-orange-500 mb-1">BUT GEII</p>
+          <h3 class="text-base font-semibold text-slate-900 mb-1">Compétences BUT GEII</h3>
+          <p class="text-sm text-slate-600 mb-3">
+            Cartographie complète de mes apprentissages critiques sur les 3 années de BUT GEII,
+            avec auto-évaluation et preuves associées.
+          </p>
+          <span class="text-xs text-orange-500 group-hover:underline">Voir la cartographie →</span>
+        </a>
+
+        <!-- Hard skills -->
+        <article class="col-span-1 border border-slate-200 rounded-2xl p-4 shadow-sm bg-white text-sm">
+          <h3 class="text-base font-semibold text-slate-900 mb-2">Hard skills</h3>
+          <ul class="list-disc list-inside text-slate-600 space-y-1">
+            >C / C++ embarqué (STM32, ESP32).</li>
+            >Électronique, capteurs, alimentation.</li>
+            >IoT : LoRa / LoRaWAN, MQTT.</li>
+            >Python / Flask, PostgreSQL.</li>
+            >HTML, CSS, Tailwind CSS.</li>
+          </ul>
+        </article>
+
+        <!-- Soft skills -->
+        <article class="col-span-1 border border-slate-200 rounded-2xl p-4 shadow-sm bg-white text-sm">
+          <h3 class="text-base font-semibold text-slate-900 mb-2">Soft skills</h3>
+          <ul class="list-disc list-inside text-slate-600 space-y-1">
+            >Travail en équipe projet.</li>
+            >Autonomie et auto-formation.</li>
+            >Rigueur dans les tests et la validation.</li>
+            >Curiosité et adaptabilité technique.</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="space-y-4 pb-10">
+      <h2 class="text-xl md:text-2xl font-semibold text-slate-900">Contact</h2>
+      <p class="text-sm text-slate-600">
+        Pour un stage, une alternance ou un échange autour de projets, vous pouvez me joindre&nbsp;:
+      </p>
+      <div class="flex flex-wrap gap-3">
+
+        <!-- Numero de telephone  --> 
+
+        <!-- Email -->
+        <a href="mailto:2305clarckibara@gmail.com"
+           class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-slate-200 text-sm hover:border-orange-500 hover:text-orange-500 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25H4.5a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0l-9.75 6.75L2.25 6.75" />
+          </svg>
+          2305clarckibara@gmail.com
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/sylvestre-ibara"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-slate-200 text-sm hover:border-orange-500 hover:text-orange-500 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M19 0h-14C2.239 0 0 2.239 0 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5V5c0-2.761-2.238-5-5-5zm-11 19H5v-11h3v11zm-1.5-12.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+          </svg>
+          Sylvestre Ibara
+        </a>
+
+        <!-- GitHub -->
+        <a href="https://github.com/Lekylouch"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-slate-200 text-sm hover:border-orange-500 hover:text-orange-500 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+          </svg>
+          Lekylouch
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 mt-20 py-6 text-center text-xs text-slate-400">
+    Sylvestre Ibara &middot; Portfolio &middot; 2026
+  </footer>
+
+</body>
+</html>
