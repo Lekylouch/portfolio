@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Compétences – Sylvestre Ibara</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-[url('fond-competences.jpg')] bg-cover bg-center bg-fixed text-slate-900 selection:bg-orange-200">
+
+  <main class="max-w-4xl mx-auto px-4 py-16 space-y-16">
+
+    <div class="space-y-4 text-center bg-white/90 backdrop-blur-md p-8 rounded-3xl shadow-sm border border-slate-200 mt-8">
+      <p class="text-xs uppercase tracking-[0.2em] text-orange-500 font-bold">Expertise</p>
+      <h1 class="text-3xl md:text-4xl font-bold text-slate-900 tracking-tight">Mes compétences</h1>
+      <p class="text-sm md:text-base text-slate-600 max-w-2xl mx-auto leading-relaxed mt-4">
+        Au cours de mon BUT GEII et de mes différentes expériences, j'ai pu développer une expertise technique transversale, allant de la conception de la carte électronique jusqu'au développement du logiciel embarqué et de l'interface web.
+      </p>
+    </div>
+
+    <section id="hard-skills" class="scroll-mt-20 border border-slate-200 rounded-3xl shadow-sm bg-white overflow-hidden hover:shadow-lg transition-all">
+      <div class="border-b border-slate-100 bg-slate-50/80 px-6 py-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div class="flex items-center gap-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-orange-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+          </svg>
+          <h2 class="text-xl md:text-2xl font-bold text-slate-900 leading-tight">Programmation & Systèmes Embarqués</h2>
+        </div>
+        <span class="inline-block px-3 py-1 text-xs rounded-full bg-orange-100 text-orange-700 border border-orange-200 font-semibold shrink-0">
+          Hard Skills
+        </span>
+      </div>
+
+      <div class="px-6 py-8 grid md:grid-cols-2 gap-6 text-sm text-slate-600">
+        <div class="border border-slate-100 rounded-2xl p-6 bg-slate-50 hover:bg-white hover:shadow-md transition-all">
+          <h3 class="font-bold text-slate-900 mb-4">Langages de programmation</h3>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-2">
+              <span class="text-orange-500 font-bold">▪️</span> 
+              <span><strong class="text-slate-900">C / C++</strong> (Firmwares bas niveau, STM32, ESP32)</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-orange-500 font-bold">▪️</span> 
+              <span><strong class="text-slate-900">Python</strong> (Scripts, traitement de données, Flask)</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-orange-500 font-bold">▪️</span> 
+              <span><strong class="text-slate-900">HTML / CSS / Tailwind</strong> (Interfaces web, Portfolios)</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-orange-500 font-bold">▪️</span> 
+              <span><strong class="text-slate-900">SQL</strong> (Bases de données PostgreSQL)</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="border border-slate-100 rounded-2xl p-6 bg-slate-50 hover:bg-white hover:shadow-md transition-all">
+          <h3 class="font-bold text-slate-900 mb-4">Réseaux & IoT</h3>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-2">
+              <span class="text-orange-500 font-bold">▪️</span> 
+              <span><strong class="text-slate-900">LoRa / LoRaWAN</strong> (Communication longue portée)</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-orange-500 font-bold">▪️</span> 
+              <span><strong class="text-slate-900">MQTT</strong> (Protocole de messagerie IoT)</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-orange-500 font-bold">▪️</span> 
+              <span>Bus de communication : <strong class="text-slate-900">I2C, SPI, UART, CAN</strong></span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-orange-500 font-bold">▪️</span> 
+              <span>Réseaux TCP/IP standards</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="outils" class="scroll-mt-20 border border-slate-200 rounded-3xl shadow-sm bg-white overflow-hidden hover:shadow-lg transition-all">
+      <div class="border-b border-slate-100 bg-slate-50/80 px-6 py-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div class="flex items-center gap-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-orange-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+          </svg>
+          <h2 class="text-xl md:text-2xl font-bold text-slate-900 leading-tight">Outils, CAO & Instrumentation</h2>
+        </div>
+        <span class="inline-block px-3 py-1 text-xs rounded-full bg-orange-100 text-orange-700 border border-orange-200 font-semibold shrink-0">
+          Laboratoire
+        </span>
+      </div>
+
+      <div class="px-6 py-8 grid md:grid-cols-2 gap-6 text-sm text-slate-600">
+        <div class="border border-slate-100 rounded-2xl p-6 bg-slate-50 hover:bg-white hover:shadow-md transition-all">
+          <h3 class="font-bold text-slate-900 mb-4">Logiciels & Environnements</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1.5 bg-white border border-slate-200 text-slate-700 text-xs font-semibold rounded-md shadow-sm">Altium Designer</span>
+            <span class="px-3 py-1.5 bg-white border border-slate-200 text-slate-700 text-xs font-semibold rounded-md shadow-sm">KiCad</span>
+            <span class="px-3 py-1.5 bg-white border border-slate-200 text-slate-700 text-xs font-semibold rounded-md shadow-sm">Proteus</span>
+            <span class="px-3 py-1.5 bg-white border border-slate-200 text-slate-700 text-xs font-semibold rounded-md shadow-sm">STM32CubeIDE</span>
+            <span class="px-3 py-1.5 bg-white border border-slate-200 text-slate-700 text-xs font-semibold rounded-md shadow-sm">VS Code</span>
+            <span class="px-3 py-1.5 bg-white border border-slate-200 text-slate-700 text-xs font-semibold rounded-md shadow-sm">Git / GitHub</span>
+          </div>
+        </div>
+        
+        <div class="border border-slate-100 rounded-2xl p-6 bg-slate-50 hover:bg-white hover:shadow-md transition-all">
+          <h3 class="font-bold text-slate-900 mb-3">Appareils de mesure & Prototypage</h3>
+          <p class="text-xs text-slate-500 mb-4 leading-relaxed">Autonomie complète sur l'utilisation du matériel standard de laboratoire électronique :</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1.5 bg-orange-50 text-orange-700 text-xs font-semibold rounded-md border border-orange-200">Oscilloscopes numériques</span>
+            <span class="px-3 py-1.5 bg-orange-50 text-orange-700 text-xs font-semibold rounded-md border border-orange-200">Générateurs de fonctions (GBF)</span>
+            <span class="px-3 py-1.5 bg-orange-50 text-orange-700 text-xs font-semibold rounded-md border border-orange-200">Multimètres de précision</span>
+            <span class="px-3 py-1.5 bg-orange-50 text-orange-700 text-xs font-semibold rounded-md border border-orange-200">Alimentations stabilisées</span>
+            <span class="px-3 py-1.5 bg-orange-50 text-orange-700 text-xs font-semibold rounded-md border border-orange-200">Postes à souder (CMS & Traversant)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="soft-skills" class="scroll-mt-20 border border-slate-200 rounded-3xl shadow-sm bg-white overflow-hidden hover:shadow-lg transition-all">
+      <div class="border-b border-slate-100 bg-slate-50/80 px-6 py-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div class="flex items-center gap-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-orange-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
+          </svg>
+          <h2 class="text-xl md:text-2xl font-bold text-slate-900 leading-tight">Savoir-être Professionnel</h2>
+        </div>
+        <span class="inline-block px-3 py-1 text-xs rounded-full bg-slate-100 text-slate-600 border border-slate-300 font-semibold shrink-0">
+          Soft Skills
+        </span>
+      </div>
+
+      <div class="px-6 py-8 grid md:grid-cols-2 gap-6 text-sm text-slate-600">
+        <div class="flex flex-col gap-2 p-4 rounded-xl hover:bg-slate-50 transition-colors">
+          <div class="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center mb-1 border border-orange-200">
+            <span class="text-orange-500 font-bold">💬</span>
+          </div>
+          <h4 class="font-bold text-slate-900 text-base">Esprit d'équipe & Communication</h4>
+          <p class="leading-relaxed">Habitué à travailler en mode projet (ex: projet AquaGuard), je sais communiquer efficacement avec mes pairs, répartir les tâches et documenter mon travail pour faciliter la collaboration.</p>
+        </div>
+
+        <div class="flex flex-col gap-2 p-4 rounded-xl hover:bg-slate-50 transition-colors">
+          <div class="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center mb-1 border border-orange-200">
+            <span class="text-orange-500 font-bold">🔍</span>
+          </div>
+          <h4 class="font-bold text-slate-900 text-base">Autonomie & Débrouillardise</h4>
+          <p class="leading-relaxed">Face à un bug ou un système inconnu, je sais lire une documentation technique (datasheet en anglais), rechercher des solutions et m'auto-former sur de nouveaux outils.</p>
+        </div>
+
+        <div class="flex flex-col gap-2 p-4 rounded-xl hover:bg-slate-50 transition-colors">
+          <div class="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center mb-1 border border-orange-200">
+            <span class="text-orange-500 font-bold">📐</span>
+          </div>
+          <h4 class="font-bold text-slate-900 text-base">Rigueur & Méthode</h4>
+          <p class="leading-relaxed">Conscient qu'une erreur de conception peut coûter cher en électronique, j'applique des protocoles de tests stricts avant de valider un prototype ou un firmware.</p>
+        </div>
+
+        <div class="flex flex-col gap-2 p-4 rounded-xl hover:bg-slate-50 transition-colors">
+          <div class="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center mb-1 border border-orange-200">
+            <span class="text-orange-500 font-bold">🔄</span>
+          </div>
+          <h4 class="font-bold text-slate-900 text-base">Adaptabilité</h4>
+          <p class="leading-relaxed">Capable de passer de la soudure d'un composant CMS à l'écriture d'une requête SQL ou d'un script Python dans la même journée.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>

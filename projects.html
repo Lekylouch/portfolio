@@ -4,197 +4,137 @@
   <meta charset="UTF-8" />
   <title>Projets – Sylvestre Ibara</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
-    h1, h2, h3, h4 {
-      font-family: Georgia, "Times New Roman", serif;
-    }
-    body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    }
+    body { font-family: 'Inter', sans-serif; }
   </style>
 </head>
-<body class="bg-white text-slate-900">
+<body class="bg-[url('fond-projets.jpg')] bg-cover bg-center bg-fixed text-slate-900 selection:bg-orange-200">
 
-  <!-- Navbar -->
-  <header class="sticky top-0 z-20 bg-white/90 backdrop-blur border-b border-slate-200">
-    <div class="max-w-5xl mx-auto flex items-center justify-between px-4 py-3">
-      <a href="index.html" class="font-semibold tracking-tight hover:text-orange-500 transition">
-        Sylvestre Ibara
-      </a>
-      <nav class="space-x-4 text-sm">
-        <a href="index.html#profil" class="hover:text-orange-500">Profil</a>
-        <a href="index.html#formations" class="hover:text-orange-500">Formations</a>
-        <a href="index.html#stages" class="hover:text-orange-500">Stages</a>
-        <a href="projets.html" class="text-orange-500 font-medium">Projets</a>
-        <a href="index.html#competences" class="hover:text-orange-500">Compétences</a>
-        <a href="index.html#contact" class="hover:text-orange-500">Contact</a>
-      </nav>
-    </div>
-  </header>
+  <main class="max-w-4xl mx-auto px-4 py-16 space-y-16">
 
-  <main class="max-w-5xl mx-auto px-4 py-12 space-y-20">
-
-    <!-- Titre de la page -->
-    <div class="space-y-2">
-      <p class="text-xs uppercase tracking-[0.2em] text-orange-500">Portfolio</p>
-      <h1 class="text-3xl md:text-4xl font-semibold text-slate-900">Mes projets</h1>
-      <p class="text-sm text-slate-500">
+    <div class="space-y-4 text-center bg-white/90 backdrop-blur-md p-8 rounded-3xl shadow-sm border border-slate-200 mt-8">
+      <p class="text-xs uppercase tracking-[0.2em] text-orange-500 font-bold">Portfolio</p>
+      <h1 class="text-3xl md:text-4xl font-bold text-slate-900 tracking-tight">Mes projets</h1>
+      <p class="text-sm md:text-base text-slate-600 max-w-2xl mx-auto leading-relaxed mt-4">
         Projets académiques et personnels menés en parallèle de ma formation en BUT GEII.
         Chaque projet combine conception électronique, programmation embarquée et intégration système.
       </p>
     </div>
 
-    <!-- ───────────────────────────────────────────── -->
-    <!-- PROJET 1 : AquaGuard                         -->
-    <!-- ───────────────────────────────────────────── -->
-    <section id="aquaguard" class="scroll-mt-20 border border-slate-200 rounded-2xl shadow-sm bg-white overflow-hidden">
+    <section id="aquaguard" class="scroll-mt-20 border border-slate-200 rounded-3xl shadow-sm bg-white overflow-hidden hover:shadow-lg transition-all">
 
-      <!-- En-tête du projet -->
-      <div class="border-b border-slate-100 px-6 py-5 flex flex-col md:flex-row md:items-center md:justify-between gap-2">
-        <div>
-          <h2 class="text-2xl font-semibold text-slate-900">AquaGuard</h2>
-          <p class="text-sm text-slate-500 mt-1">
-            Projet académique &middot; IUT de Brest &middot; 2024 – 2025
+      <div class="border-b border-slate-100 bg-slate-50/80 px-6 py-6 flex flex-col sm:flex-row sm:items-start justify-between gap-6">
+        
+        <div class="flex flex-col sm:flex-row gap-5">
+          <div class="w-16 h-16 flex-shrink-0 bg-white border border-slate-200 rounded-xl flex items-center justify-center p-2 shadow-sm">
+            <img src="logo-iut.png" alt="Logo IUT Brest" class="max-w-full max-h-full object-contain text-[10px] text-slate-400 text-center" />
+          </div>
+          
+          <div>
+            <h2 class="text-xl md:text-2xl font-bold text-slate-900 leading-tight">
+              AquaGuard
+            </h2>
+            <div class="mt-2 space-y-1">
+              <p class="text-sm font-semibold text-slate-800">Projet académique</p>
+              <p class="text-sm text-slate-500 flex items-center gap-2">
+                <span class="font-medium">IUT de Brest</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:items-end gap-2 shrink-0">
+          <span class="inline-block px-3 py-1 text-xs rounded-full bg-orange-100 text-orange-700 border border-orange-200 font-semibold">
+            En cours
+          </span>
+          <p class="text-xs font-medium text-slate-500 bg-slate-100 px-3 py-1 rounded-md border border-slate-200">
+            2024 - 2025
           </p>
         </div>
-        <span class="inline-block px-3 py-1 text-xs rounded-full bg-orange-100 text-orange-700 border border-orange-200 self-start md:self-auto">
-          Projet académique
-        </span>
       </div>
 
-      <div class="px-6 py-6 space-y-8 text-sm text-slate-600">
+      <div class="px-6 py-8 space-y-8 text-sm text-slate-600">
 
-        <!-- Thème / Accroche -->
-        <div>
-          <h3 class="text-base font-semibold text-slate-900 mb-1">Thème</h3>
-          <p>
-            Système embarqué de surveillance de casiers de pêche en mer : localisation GPS, détection de vol
-            ou de dérive, et remontée d'alertes via communication longue portée LoRa.
-          </p>
+        <div class="grid md:grid-cols-2 gap-8">
+          <div>
+            <h3 class="text-base font-semibold text-slate-900 mb-2">Thème</h3>
+            <p class="leading-relaxed">
+              Système embarqué de surveillance de casiers de pêche en mer : localisation GPS, détection de vol
+              ou de dérive, et remontée d'alertes via communication longue portée LoRa.
+            </p>
+          </div>
+          <div>
+            <h3 class="text-base font-semibold text-slate-900 mb-2">Contexte & Problématique</h3>
+            <p class="leading-relaxed">
+              Les pêcheurs artisanaux perdent régulièrement leurs casiers en mer (dérive, vols). L'objectif est de
+              concevoir un système embarqué autonome fixé sur la bouée, capable de localiser
+              l'engin et d'alerter le pêcheur sans dépendre d'un réseau cellulaire classique.
+            </p>
+          </div>
         </div>
 
-        <!-- Contexte / Problématique -->
         <div>
-          <h3 class="text-base font-semibold text-slate-900 mb-1">Contexte & Problématique</h3>
-          <p>
-            Les pêcheurs artisanaux perdent régulièrement leurs casiers en mer : dérive due aux courants,
-            vols, ou simplement perte de repères en conditions difficiles. L'objectif de ce projet est de
-            concevoir un système embarqué autonome, fixé sur chaque bouée de casier, capable de localiser
-            l'engin de pêche et d'alerter le pêcheur en cas d'anomalie, sans dépendre d'une infrastructure
-            réseau cellulaire en mer.
-          </p>
-        </div>
-
-        <!-- Moyens / Réalisation -->
-        <div>
-          <h3 class="text-base font-semibold text-slate-900 mb-1">Réalisation</h3>
-          <ul class="list-disc list-inside space-y-2">
-            >
-              Conception d'un prototype embarqué à base de microcontrôleur intégrant un module GPS pour
-              la localisation de la bouée en temps réel.
+          <h3 class="text-base font-semibold text-slate-900 mb-3">Réalisation technique</h3>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-orange-500 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span class="leading-relaxed">Conception d'un prototype embarqué à base de microcontrôleur intégrant un module GPS pour la localisation en temps réel.</span>
             </li>
-            >
-              Intégration d'un module LoRa pour transmettre les données de position et d'état vers une
-              gateway ou un terminal de réception à bord du bateau.
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-orange-500 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span class="leading-relaxed">Intégration d'un module LoRa pour transmettre les données de position vers un terminal de réception à bord du bateau.</span>
             </li>
-            >
-              Développement du firmware en C embarqué : gestion des états (veille, alerte, transmission),
-              lecture des trames GPS (NMEA), et logique de détection de dérive ou de vol par comparaison
-              de positions.
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-orange-500 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span class="leading-relaxed">Développement du firmware en C embarqué : gestion des états (veille, alerte), lecture des trames NMEA et logique de détection.</span>
             </li>
-            >
-              Mise en place d'une logique d'alerte : si la bouée quitte une zone de référence définie
-              (geofencing), une alerte est transmise au pêcheur.
-            </li>
-            >
-              Travail en équipe avec répartition des tâches entre conception électronique, firmware et
-              présentation du projet.
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-orange-500 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span class="leading-relaxed">Mise en place d'une logique de Geofencing : alerte transmise automatiquement si la bouée quitte sa zone de référence.</span>
             </li>
           </ul>
         </div>
 
-        <!-- Compétences mobilisées -->
-        <div>
-          <h3 class="text-base font-semibold text-slate-900 mb-2">Compétences mobilisées</h3>
+        <div class="bg-slate-50 p-5 rounded-xl border border-slate-100">
+          <h3 class="text-sm font-bold text-slate-900 mb-3">Compétences et outils clés</h3>
           <div class="flex flex-wrap gap-2">
-            <span class="px-3 py-1 rounded-full bg-slate-900 text-white text-xs">C embarqué</span>
-            <span class="px-3 py-1 rounded-full bg-orange-100 text-orange-700 border border-orange-200 text-xs">LoRa / Communication longue portée</span>
-            <span class="px-3 py-1 rounded-full bg-orange-100 text-orange-700 border border-orange-200 text-xs">GPS / Trames NMEA</span>
-            <span class="px-3 py-1 rounded-full bg-slate-900 text-white text-xs">Électronique embarquée</span>
-            <span class="px-3 py-1 rounded-full bg-orange-100 text-orange-700 border border-orange-200 text-xs">Geofencing / Logique d'alerte</span>
-            <span class="px-3 py-1 rounded-full bg-slate-900 text-white text-xs">Travail en équipe</span>
+            <span class="px-3 py-1.5 rounded-md bg-slate-800 text-white font-medium text-xs shadow-sm">C embarqué</span>
+            <span class="px-3 py-1.5 rounded-md bg-orange-100 text-orange-700 border border-orange-200 font-medium text-xs">Réseau LoRa</span>
+            <span class="px-3 py-1.5 rounded-md bg-orange-100 text-orange-700 border border-orange-200 font-medium text-xs">GPS & Trames NMEA</span>
+            <span class="px-3 py-1.5 rounded-md bg-slate-800 text-white font-medium text-xs shadow-sm">Électronique de puissance</span>
+            <span class="px-3 py-1.5 rounded-md bg-orange-100 text-orange-700 border border-orange-200 font-medium text-xs">Geofencing</span>
+            <span class="px-3 py-1.5 rounded-md bg-white border border-slate-200 text-slate-600 font-medium text-xs shadow-sm">Travail en équipe</span>
           </div>
         </div>
 
-        <!-- Ce que j'ai appris -->
         <div>
-          <h3 class="text-base font-semibold text-slate-900 mb-1">Ce que j'ai appris</h3>
-          <p>
+          <h3 class="text-base font-semibold text-slate-900 mb-2">Bilan & Apprentissage</h3>
+          <p class="leading-relaxed">
             Ce projet m'a permis de consolider mes bases en programmation embarquée et en communication
-            LoRa, tout en abordant des contraintes réelles liées au terrain (consommation, autonomie,
-            fiabilité en environnement marin). Il m'a également appris à travailler en équipe sur un
-            projet complet, de la conception à la présentation finale.
+            LoRa, tout en abordant des contraintes réelles liées au terrain (consommation énergétique,
+            fiabilité en environnement marin salin). Il m'a également appris à scinder un projet complexe
+            en sous-systèmes pour faciliter le travail en équipe.
           </p>
         </div>
 
       </div>
     </section>
-    <!-- FIN AquaGuard -->
-
-
-    <!-- ───────────────────────────────────────────── -->
-    <!-- MODÈLE – Projet à venir (duplique ce bloc)   -->
-    <!-- ───────────────────────────────────────────── -->
-    <!--
-    <section id="nom-du-projet" class="scroll-mt-20 border border-slate-200 rounded-2xl shadow-sm bg-white overflow-hidden">
-      <div class="border-b border-slate-100 px-6 py-5 flex flex-col md:flex-row md:items-center md:justify-between gap-2">
-        <div>
-          <h2 class="text-2xl font-semibold text-slate-900">Nom du projet</h2>
-          <p class="text-sm text-slate-500 mt-1">
-            Contexte &middot; Organisation &middot; Période
-          </p>
-        </div>
-        <span class="inline-block px-3 py-1 text-xs rounded-full bg-orange-100 text-orange-700 border border-orange-200 self-start md:self-auto">
-          Projet académique / personnel
-        </span>
-      </div>
-
-      <div class="px-6 py-6 space-y-8 text-sm text-slate-600">
-        <div>
-          <h3 class="text-base font-semibold text-slate-900 mb-1">Thème</h3>
-          <p>Phrase d'accroche courte sur le projet.</p>
-        </div>
-        <div>
-          <h3 class="text-base font-semibold text-slate-900 mb-1">Contexte & Problématique</h3>
-          <p>Décrire le besoin ou le problème auquel le projet répond.</p>
-        </div>
-        <div>
-          <h3 class="text-base font-semibold text-slate-900 mb-1">Réalisation</h3>
-          <ul class="list-disc list-inside space-y-2">
-            >Ce que tu as fait techniquement.</li>
-            >Outils, composants, méthodes utilisés.</li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="text-base font-semibold text-slate-900 mb-2">Compétences mobilisées</h3>
-          <div class="flex flex-wrap gap-2">
-            <span class="px-3 py-1 rounded-full bg-slate-900 text-white text-xs">Compétence 1</span>
-            <span class="px-3 py-1 rounded-full bg-orange-100 text-orange-700 border border-orange-200 text-xs">Compétence 2</span>
-          </div>
-        </div>
-        <div>
-          <h3 class="text-base font-semibold text-slate-900 mb-1">Ce que j'ai appris</h3>
-          <p>Ce que ce projet t'a apporté techniquement et humainement.</p>
-        </div>
-      </div>
-    </section>
-    -->
 
   </main>
 
-  <!-- Footer simple -->
-  <footer class="border-t border-slate-200 mt-20 py-6 text-center text-xs text-slate-400">
-    Sylvestre Ibara &middot; Portfolio &middot; 2025
+  <footer class="mt-8 py-6 text-center text-xs text-slate-500 bg-white/90 backdrop-blur-md border-t border-slate-200">
+    &copy; 2026 Sylvestre Ibara &middot; Portfolio &middot; Tous droits réservés
   </footer>
 
 </body>

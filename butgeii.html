@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cartographie BUT GEII – Sylvestre Ibara</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-[url('fond-butgeii.jpg')] bg-cover bg-center bg-fixed text-slate-900 selection:bg-orange-200">
+
+  <main class="max-w-5xl mx-auto px-4 py-16 space-y-16">
+
+    <div class="space-y-6 text-center bg-white/90 backdrop-blur-md p-8 rounded-3xl shadow-sm border border-slate-200 mt-8">
+      <div>
+        <p class="text-xs uppercase tracking-[0.2em] text-orange-500 font-bold">BUT GEII – Parcours AII</p>
+        <h1 class="text-3xl md:text-4xl font-bold text-slate-900 tracking-tight mt-2">Mes apprentissages critiques</h1>
+        <p class="text-sm md:text-base text-slate-600 max-w-2xl mx-auto leading-relaxed mt-4">
+          Cartographie de mes compétences sur les 3 années de BUT GEII.
+          Pour chaque point, je précise mon niveau d'auto-évaluation et le lien
+          vers les preuves concrètes issues de mes projets et stages.
+        </p>
+      </div>
+
+      <div class="flex flex-wrap items-center justify-center gap-4 py-3 px-6 bg-white border border-slate-200 rounded-full shadow-sm mx-auto w-fit">
+        <span class="flex items-center gap-2 text-xs font-medium text-slate-600">
+          <span class="w-3 h-3 rounded-full bg-slate-200"></span> Débutant
+        </span>
+        <span class="flex items-center gap-2 text-xs font-medium text-slate-600">
+          <span class="w-3 h-3 rounded-full bg-orange-200"></span> En progression
+        </span>
+        <span class="flex items-center gap-2 text-xs font-medium text-slate-600">
+          <span class="w-3 h-3 rounded-full bg-orange-400"></span> Compétent
+        </span>
+        <span class="flex items-center gap-2 text-xs font-medium text-slate-600">
+          <span class="w-3 h-3 rounded-full bg-slate-900"></span> Maîtrisé
+        </span>
+      </div>
+    </div>
+
+    <section class="space-y-6 bg-white/80 backdrop-blur-sm p-6 md:p-8 rounded-3xl border border-slate-200 shadow-sm">
+      <div class="space-y-1 mb-8">
+        <div class="flex items-center gap-3">
+          <div class="w-1.5 h-8 bg-orange-500 rounded-full"></div>
+          <h2 class="text-xl md:text-2xl font-bold text-slate-900">Concevoir</h2>
+        </div>
+        <p class="text-sm text-slate-600 pl-5 font-medium">
+          Analyser un besoin, proposer une solution technique et produire les documents associés.
+        </p>
+      </div>
+
+      <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC11.01 – BUT1</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-orange-400 flex-shrink-0 shadow-sm" title="Compétent"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Produire une analyse fonctionnelle d'un système simple
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-orange-500 font-bold">Compétent</span>
+            </p>
+            <a href="ac11-01.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC11.02 – BUT1</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-slate-900 flex-shrink-0 shadow-sm" title="Maîtrisé"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Réaliser un prototype pour des solutions techniques matériel et/ou logiciel
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-slate-900 font-bold">Maîtrisé</span>
+            </p>
+            <a href="ac11-02.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC11.03 – BUT1</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-orange-200 flex-shrink-0 shadow-sm" title="En progression"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Rédiger un dossier de fabrication à partir d'un dossier de conception
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-orange-400 font-bold">En progression</span>
+            </p>
+            <a href="ac11-03.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC21.01 – BUT2</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-orange-400 flex-shrink-0 shadow-sm" title="Compétent"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Proposer des solutions techniques liées à l'analyse fonctionnelle
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-orange-500 font-bold">Compétent</span>
+            </p>
+            <a href="ac21-01.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC21.02 – BUT2</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-orange-200 flex-shrink-0 shadow-sm" title="En progression"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Dé-risquer les solutions techniques retenues
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-orange-400 font-bold">En progression</span>
+            </p>
+            <a href="ac21-02.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC31.01 – BUT3</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-orange-400 flex-shrink-0 shadow-sm" title="Compétent"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Contribuer à la rédaction d'un cahier des charges
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-orange-500 font-bold">Compétent</span>
+            </p>
+            <a href="ac31-01.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC31.02 – BUT3</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-slate-900 flex-shrink-0 shadow-sm" title="Maîtrisé"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Prouver la pertinence de ses choix technologiques
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-slate-900 font-bold">Maîtrisé</span>
+            </p>
+            <a href="ac31-02.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC31.03 – BUT3</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-orange-200 flex-shrink-0 shadow-sm" title="En progression"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Rédiger un dossier de conception
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-orange-400 font-bold">En progression</span>
+            </p>
+            <a href="ac31-03.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="space-y-6 bg-white/80 backdrop-blur-sm p-6 md:p-8 rounded-3xl border border-slate-200 shadow-sm">
+      <div class="space-y-1 mb-8">
+        <div class="flex items-center gap-3">
+          <div class="w-1.5 h-8 bg-orange-500 rounded-full"></div>
+          <h2 class="text-xl md:text-2xl font-bold text-slate-900">Vérifier</h2>
+        </div>
+        <p class="text-sm text-slate-600 pl-5 font-medium">
+          Tester, mesurer, identifier et corriger les dysfonctionnements d'un système.
+        </p>
+      </div>
+
+      <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC12.01 – BUT1</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-slate-900 flex-shrink-0 shadow-sm" title="Maîtrisé"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Appliquer une procédure d'essais
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-slate-900 font-bold">Maîtrisé</span>
+            </p>
+            <a href="ac12-01.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC12.02 – BUT1</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-orange-400 flex-shrink-0 shadow-sm" title="Compétent"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Identifier un dysfonctionnement
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-orange-500 font-bold">Compétent</span>
+            </p>
+            <a href="ac12-02.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC12.03 – BUT1</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-orange-400 flex-shrink-0 shadow-sm" title="Compétent"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Décrire un dysfonctionnement
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-orange-500 font-bold">Compétent</span>
+            </p>
+            <a href="ac12-03.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC22.01 – BUT2</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-slate-900 flex-shrink-0 shadow-sm" title="Maîtrisé"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Identifier les tests et mesures à mettre en place pour valider le fonctionnement d'un système
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-slate-900 font-bold">Maîtrisé</span>
+            </p>
+            <a href="ac22-01.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC22.02 – BUT2</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-orange-200 flex-shrink-0 shadow-sm" title="En progression"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Certifier le fonctionnement d'un nouvel équipement industriel
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-orange-400 font-bold">En progression</span>
+            </p>
+            <a href="ac22-02.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC32.01 – BUT3</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-orange-400 flex-shrink-0 shadow-sm" title="Compétent"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Évaluer la cause racine d'un dysfonctionnement
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-orange-500 font-bold">Compétent</span>
+            </p>
+            <a href="ac32-01.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC32.02 – BUT3</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-orange-400 flex-shrink-0 shadow-sm" title="Compétent"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Proposer une solution corrective à un dysfonctionnement
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-orange-500 font-bold">Compétent</span>
+            </p>
+            <a href="ac32-02.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC32.03 – BUT3</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-orange-200 flex-shrink-0 shadow-sm" title="En progression"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Produire une procédure d'essais pour valider la conformité d'un système
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-orange-400 font-bold">En progression</span>
+            </p>
+            <a href="ac32-03.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="space-y-6 bg-white/80 backdrop-blur-sm p-6 md:p-8 rounded-3xl border border-slate-200 shadow-sm">
+      <div class="space-y-1 mb-8">
+        <div class="flex items-center gap-3">
+          <div class="w-1.5 h-8 bg-orange-500 rounded-full"></div>
+          <h2 class="text-xl md:text-2xl font-bold text-slate-900">Maintenir</h2>
+        </div>
+        <p class="text-sm text-slate-600 pl-5 font-medium">
+          Assurer la continuité de fonctionnement d'un système par des actions de maintenance corrective, préventive et améliorative.
+        </p>
+      </div>
+
+      <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC23.01 – BUT2</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-orange-200 flex-shrink-0 shadow-sm" title="En progression"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Exécuter l'entretien et le contrôle d'un système en respectant une procédure
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-orange-400 font-bold">En progression</span>
+            </p>
+            <a href="ac23-01.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC23.02 – BUT2</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-orange-200 flex-shrink-0 shadow-sm" title="En progression"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Exécuter une opération de maintenance corrective, préventive, améliorative
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-orange-400 font-bold">En progression</span>
+            </p>
+            <a href="ac23-02.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC23.03 – BUT2</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-orange-400 flex-shrink-0 shadow-sm" title="Compétent"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Diagnostiquer un dysfonctionnement dans un système
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-orange-500 font-bold">Compétent</span>
+            </p>
+            <a href="ac23-03.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC23.04 – BUT2</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-orange-400 flex-shrink-0 shadow-sm" title="Compétent"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Identifier la cause racine du dysfonctionnement
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-orange-500 font-bold">Compétent</span>
+            </p>
+            <a href="ac23-04.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC33.01 – BUT3</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-orange-200 flex-shrink-0 shadow-sm" title="En progression"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Proposer une solution de maintenance
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-orange-400 font-bold">En progression</span>
+            </p>
+            <a href="ac33-01.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC33.02 – BUT3</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-slate-200 flex-shrink-0 shadow-sm" title="Débutant"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Évaluer les coûts d'indisponibilité et de maintenance d'un système
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-slate-500 font-bold">Débutant</span>
+            </p>
+            <a href="ac33-02.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC33.03 – BUT3</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-slate-200 flex-shrink-0 shadow-sm" title="Débutant"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Produire une procédure de maintenance
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-slate-500 font-bold">Débutant</span>
+            </p>
+            <a href="ac33-03.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="space-y-6 bg-white/80 backdrop-blur-sm p-6 md:p-8 rounded-3xl border border-slate-200 shadow-sm">
+      <div class="space-y-1 mb-8">
+        <div class="flex items-center gap-3">
+          <div class="w-1.5 h-8 bg-orange-500 rounded-full"></div>
+          <h2 class="text-xl md:text-2xl font-bold text-slate-900">Intégrer & Installer</h2>
+        </div>
+        <p class="text-sm text-slate-600 pl-5 font-medium">
+          Planifier, installer et mettre en service des équipements, en produisant les dossiers de conformité associés.
+        </p>
+      </div>
+
+      <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC24.01 – BUT2</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-orange-400 flex-shrink-0 shadow-sm" title="Compétent"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Appliquer la procédure d'installation d'un système
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-orange-500 font-bold">Compétent</span>
+            </p>
+            <a href="ac24-01.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC24.02 – BUT2</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-orange-400 flex-shrink-0 shadow-sm" title="Compétent"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Exécuter la mise en service d'un système en respectant la procédure
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-orange-500 font-bold">Compétent</span>
+            </p>
+            <a href="ac24-02.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC34.01 – BUT3</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-orange-200 flex-shrink-0 shadow-sm" title="En progression"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Planifier l'installation et la mise en service d'un nouvel équipement
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-orange-400 font-bold">En progression</span>
+            </p>
+            <a href="ac34-01.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC34.02 – BUT3</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-orange-200 flex-shrink-0 shadow-sm" title="En progression"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Produire une procédure d'installation et de mise en service d'un système
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-orange-400 font-bold">En progression</span>
+            </p>
+            <a href="ac34-02.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-lg hover:border-orange-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4 group">
+          <div>
+            <div class="flex justify-between items-start mb-3">
+              <span class="text-xs px-2.5 py-1 bg-orange-50 text-orange-700 rounded-md font-bold border border-orange-100">AC34.03 – BUT3</span>
+              <span class="w-3.5 h-3.5 rounded-full bg-slate-200 flex-shrink-0 shadow-sm" title="Débutant"></span>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-600 transition-colors">
+              Produire le dossier de conformité du système en gérant le versionnage
+            </h3>
+          </div>
+          <div class="space-y-4 pt-2 border-t border-slate-50">
+            <p class="text-xs text-slate-500 font-medium">
+              Niveau : <span class="text-slate-500 font-bold">Débutant</span>
+            </p>
+            <a href="ac34-03.md" class="inline-flex items-center gap-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-700 font-semibold hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all w-fit">
+              Voir la preuve <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
